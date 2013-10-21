@@ -1,0 +1,12 @@
+!!! 5
+html
+  body
+    h1 Handlebars
+    h2 The form
+      input(type='text', name='searchText', id="textInput")
+      input(type='submit')
+    div#results
+      include templates.html
+    script(type='text/javascript', src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js')
+    script(type='text/javascript', src='http://cdnjs.cloudflare.com/ajax/libs/handlebars.js/1.0.0/handlebars.min.js')
+    script(type='text/javascript', src='/javascripts/main.js')
